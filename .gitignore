@@ -1,0 +1,20 @@
+# Ignore node_modules in all folders
+**/node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore environment files (optional for security)
+*.env
+*.env.local
+
+# VS Code settings (optional)
+.vscode/
+
+# OS/System files
+.DS_Store
+Thumbs.db
+
+# Build folders (in case of manual builds before deploy)
+**/build/
+**/dist/
