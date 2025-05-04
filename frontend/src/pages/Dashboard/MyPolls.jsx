@@ -69,7 +69,7 @@ const MyPolls = () => {
     return () => {
       
     }
-  }, [filterType])
+  }, [filterType, user])
 
   useEffect(() => {
     if(page !== 1){
